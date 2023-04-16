@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/freitas-labs/node-npm-typescript-prettier-eslint-jest-hotreload-hooks/issues"
   },
-  "homepage": "https://github.com/freitas-labs/node-npm-typescript-prettier-eslint-jest-hotreload-hooks#readme"
+  "homepage": "https://github.com/freitas-labs/node-npm-typescript-prettier-eslint-jest-hotreload-hooks#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
