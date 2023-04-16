@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/freitas-labs/node-npm-typescript-prettier-eslint-jest-hotreload-hooks#readme",
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "typescript": "^5.0.4"
   }
 }
