@@ -7,7 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --sourcemap",
-    "start": "npx nodemon",
+    "start": "tsc src/index.ts && echo 'hey' && node dist/index.js",
+    "start:hot": "npx nodemon",
     "test": "jest"
   },
   "repository": {
